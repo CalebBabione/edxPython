@@ -6,15 +6,12 @@
 #this saves us the trouble of having to type each number ourselves.
 for i in range(6):
     print(i)
-
 #you can take already created arrays to get this job done.
 #and it will go in a range of 0 - the ammount of stuff you have - 1.
 #it will also automatically change the variable of the name.
 names = ["Harry", "Ron", "Hermione"]
-
 for name in names:
     print(name)
-
 #This is definitely cool and all but lets test.
 # since a string is a name theoretically it can just print the litters of a string
 #theoretically if this works it will output the words in the name "Harry"
